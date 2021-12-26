@@ -21,7 +21,7 @@ describe('listGifts', () => {
     });
   });
   describe('falsy cases', () => {
-    test('should empty object', () => {
+    test('should return empty object', () => {
       carta = ""
       const result = listGifts(carta);
       expect(result).toEqual({})
