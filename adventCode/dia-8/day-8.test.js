@@ -19,7 +19,7 @@ describe('maxProfit', () => {
     expect(result).toBe(60)
   });
   test('should return 61', () => {
-    const result = maxProfit([39, 100, 29]) // -> 61 (compra a 29, vende a 100)
+    const result = maxProfit([39, 100, 29]) // -> 61 (compra a 39, vende a 100)
     expect(result).toBe(61)
   });
   test('should return 54', () => {
