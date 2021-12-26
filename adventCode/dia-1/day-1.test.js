@@ -36,14 +36,12 @@ describe('contarOvejas', () => {
     test('should return empty array', () => {
       ovejas = [];
       const result = contarOvejas(ovejas);
-      console.log(result)
       expect(result).toEqual([])
     });
     test('should return empty array', () => {
       ovejas[2] = {name:'null',color:'azul'};
       ovejas[3] = {name:'null',color:'azul'};
       const result = contarOvejas(ovejas);
-      console.log(result)
       expect(result).toEqual([])
     });
   })
