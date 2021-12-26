@@ -16,7 +16,7 @@ describe('daysToXmas', () => {
     expect(result).toBe(20)
   });
   test('should return -7', () => {
-    date = new Date("Jan 1, 2021")
+    date = new Date("Jan 1, 2022")
     const result = daysToXmas(date)
     expect(result).toBe(-7)
   });
