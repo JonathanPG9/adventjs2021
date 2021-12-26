@@ -22,6 +22,11 @@ describe('maxProfit', () => {
     const result = maxProfit([39, 100, 29]) // -> 61 (compra a 39, vende a 100)
     expect(result).toBe(61)
   });
+  // Test de valor limite me ayudo a refactorizar mi codigo dado que estaba fallando en este test !
+  test('should return 50', () => {
+    const result = maxProfit([100,500,50,20,70]) // -> 50 (compra a 20, vende a 70)
+    expect(result).toBe(50)
+  });
   test('should return 54', () => {
     const result = maxProfit([1, 18, 29, 55, 23, 12, 2]) // -> 54 (compra a 1, vende a 55)
     expect(result).toBe(54)
